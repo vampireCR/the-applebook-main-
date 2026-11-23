@@ -1,0 +1,21 @@
+{
+  "name": "theapplebook-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TheAppleBook Android app powered by Capacitor",
+  "scripts": {
+    "android:add": "cap add android",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/app": "^7.0.1",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/splash-screen": "^7.0.1",
+    "@capacitor/status-bar": "^7.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
